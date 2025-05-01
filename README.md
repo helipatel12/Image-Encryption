@@ -100,23 +100,6 @@ Encrypted and decrypted images will be saved in the appropriate `AES/` or `DES/`
 
 ---
 
-## 📄 requirements.txt
-
-To generate this file manually:
-
-```bash
-pip freeze > requirements.txt
-```
-
-Or copy this content:
-
-```
-pycryptodome
-Pillow
-```
-
----
-
 ## ⚠️ Disclaimer
 
 This project is for **educational purposes** only. ECB mode is used, which is insecure for real-world use due to its pattern leakage. For production-grade encryption, consider secure modes like CBC or GCM.
